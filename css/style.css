@@ -47,7 +47,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	color: #2e15bb;
+	color: #1deb95;
 	transition: .4s;
 }
 
@@ -185,7 +185,8 @@ button:hover {
 }
 
 .service {
-	background: #40e0d0;
+	/* color: #1deb95; */
+	background: #1deb95;
 	width: 100%;
 	padding: 100px 0px;
 }
@@ -209,7 +210,7 @@ button:hover {
 	height: 365px;
 	width: 335px;
 	padding: 20px 35px;
-	background: #060c46;
+	background: #032ef0;
 	border-radius: 20px;
 	margin: 15px;
 	position: relative;
@@ -228,8 +229,8 @@ button:hover {
 
 h5 {
 	color: white;
-	font-size: 23px;
-	margin-bottom: 15px;
+	font-size: 30px;
+	margin-bottom: 20px;
 }
 
 .pra p {
@@ -239,7 +240,7 @@ h5 {
 	margin-bottom: 25px;
 }
 
-.card .button {
+/* .card .button {
 	background-color: #f9004d;
 	color: white;
 	text-decoration: none;
@@ -254,13 +255,13 @@ h5 {
 	background-color: transparent;
 	border: 2px solid #f9004d;
 	cursor: pointer;
-}
+} */
 
 
 footer {
 	position: relative;
 	width: 100%;
-	height: 400px;
+	height: 100px;
 	background: #101010;
 	display: flex;
 	flex-direction: column;
@@ -271,7 +272,7 @@ footer {
 footer p:nth-child(1) {
 	font-size: 30px;
 	color: white;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-weight: bold;
 }
 
@@ -295,8 +296,8 @@ footer p:nth-child(2) {
 	justify-content: center;
 	background: #f9004d;
 	border-radius: 50%;
-	margin: 22px 10px;
-	color: white;
+	margin: 0px 5px;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 	font-size: 20px;
 }
@@ -327,7 +328,7 @@ footer p:nth-child(2) {
 }
 
 .title h2 {
-	color: white;
+	color: rgb(7, 6, 6);
 	font-size: 75px;
 	width: 1130px;
 	margin: 30px auto;
@@ -335,7 +336,7 @@ footer p:nth-child(2) {
 }
 .aks {
 	width: 100%;
-	padding: 100px 0px;
+	padding: 0px 0px;
 	background-color: #191919;
 }
 #hero .hero-container {
