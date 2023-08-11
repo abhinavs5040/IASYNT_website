@@ -123,7 +123,7 @@ h4 {
 .about {
 	width: 100%;
 	padding: 100px 0px;
-	background-color: #0a0a0a;
+	background-color: #002850;
 }
 
 .about img {
@@ -160,7 +160,7 @@ h4 {
 }
 
 .about-text p {
-	color: #fcfc;
+	color: rgba(255, 255, 255, 0.8);
 	letter-spacing: 1px;
 	line-height: 28px;
 	font-size: 18px;
@@ -186,13 +186,13 @@ button:hover {
 
 .service {
 	/* color: #1deb95; */
-	background: #1deb95;
+	background: #43ea80;
 	width: 100%;
 	padding: 100px 0px;
 }
 
 .title h2 {
-	color: white;
+	color: rgb(255, 255, 255);
 	font-size: 75px;
 	width: 1130px;
 	margin: 30px auto;
@@ -210,7 +210,7 @@ button:hover {
 	height: 365px;
 	width: 335px;
 	padding: 20px 35px;
-	background: #032ef0;
+	background: #002850;
 	border-radius: 20px;
 	margin: 15px;
 	position: relative;
@@ -261,8 +261,8 @@ h5 {
 footer {
 	position: relative;
 	width: 100%;
-	height: 100px;
-	background: #101010;
+	height: 150px;
+	background: #002850;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -270,15 +270,15 @@ footer {
 }
 
 footer p:nth-child(1) {
-	font-size: 30px;
-	color: white;
+	font-size: 17px;
+	color: rgb(253, 253, 253);
 	margin-bottom: 10px;
 	font-weight: bold;
 }
 
 footer p:nth-child(2) {
-	color: white;
-	font-size: 17px;
+	color: rgb(252, 249, 249);
+	font-size: 5px;
 	width: 500px;
 	text-align: center;
 	line-height: 26px;
@@ -289,12 +289,12 @@ footer p:nth-child(2) {
 }
 
 .social a {
-	width: 45px;
-	height: 45px;
+	width: 30px;
+	height: 30px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: #f9004d;
+	background: #43ea80;
 	border-radius: 50%;
 	margin: 0px 5px;
 	color: rgb(255, 255, 255);
@@ -312,23 +312,25 @@ footer p:nth-child(2) {
 
 .end {
 	position: absolute;
-	color: #f9004d;
+	color: #43ea80;
 	bottom: 35px;
 	font-size: 14px;
 }
 .hobbies {
-	background: #101010;
+	background: #43ea80;
 	width: 100%;
 	padding: 100px 0px;	
 }
+
 .title li{
-	text-align: center;
-	font-size: 28px;
-	color: #fcfc;
+	/* text-align: left; */
+	font-size: 20px;
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: bold;
 }
 
 .title h2 {
-	color: rgb(7, 6, 6);
+	color: #002850;
 	font-size: 75px;
 	width: 1130px;
 	margin: 30px auto;
