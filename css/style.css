@@ -356,7 +356,7 @@ footer p:nth-child(2) {
 	padding: 0 15px;
   }
   
-  @media (max-width: 991px) {
+  @media (max-width: 600px) {
 	#hero .hero-container {
 	  top: 70px;
 	}
