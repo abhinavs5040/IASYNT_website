@@ -364,13 +364,4 @@ footer p:nth-child(2) {
 	  top: 70px;
 	}
   }
-  @media (max-width: 600px) {
-	.hero {
-		height: 30vh;
-		width: 50%;
-		background-image: url(../img/background_1.jpg);
-		background-size: cover;
-		background-position: center;
-	}
-  }
- 
+  
